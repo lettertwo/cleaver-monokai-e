@@ -64,6 +64,16 @@ a {
   text-decoration: none;
 }
 
+table {
+  border-color: #CFCFC2;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border-color: #CFCFC2;
+  border-style: solid;
+}
 
 .hljs-keyword {
   color: #F92672;
