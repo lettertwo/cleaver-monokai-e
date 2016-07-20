@@ -43,6 +43,8 @@
 .slide-content {
   width: 80vw;
   height: 80vh;
+  margin: 0 auto;
+  padding: 5vh 5vw;
   color: #EEEEEE;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, Avenir, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 4vw;
