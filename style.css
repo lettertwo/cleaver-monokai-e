@@ -1,14 +1,51 @@
-body {
+/*
+@black: #1F1F1F;
+@dark-gray: #3B3A32;
+@gray: #74745B;
+@light-gray: #CFCFC2;
+@white: #EEEEEE;
+
+// primary
+@cyan: #66D9EF;
+@magenta: #F92672;
+@yellow: #E6DB74;
+
+// secondary
+@red: #E21F17;
+@green: #A6E22E;
+@blue: #519FD8;
+
+// tertiary
+@violet: #8B74B4;
+@orange: #FFA43D;
+
+// quaternary
+@orange-yellow: #F2BF58;
+@dark-yellow: #908A53;
+
+@blue-light-gray: #90B7CD;
+@blue-dark-gray: #466C85;
+@blue-violet: #6E89C6;
+
+@magenta-orange: #FC6457;
+
+@red-violet: #B64965;
+
+@cyan-green: #86DD8E;
+
+*/
+
+.slide {
   background-color: #1F1F1F;
-  color: #EEEEEE;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, Avenir, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  letter-spacing: -0.05em;
-  line-height: 1;
-  margin: 0;
+  background-image: linear-gradient(to bottom, #1F1F1F, black);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #E6DB74;
+.slide-content {
+  width: 80vw;
+  height: 80vh;
+  color: #EEEEEE;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Avenir, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 4vw;
 }
 
 strong {
@@ -16,7 +53,31 @@ strong {
   color: #66D9EF;
 }
 
+em {
+  font-weight: normal;
+  font-style: normal;
+  color: #F92672;
+}
+
 a {
   color: #E6DB74;
   text-decoration: none;
+}
+
+
+.hljs-keyword {
+  color: #F92672;
+}
+
+.hljs-function {
+  color: #FFA43E;
+}
+
+.hljs-title {
+  color: #66D9EF;
+}
+
+.hljs-params {
+  font-style: italic;
+  color: #FC6457;
 }
