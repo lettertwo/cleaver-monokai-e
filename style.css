@@ -1,0 +1,22 @@
+body {
+  background-color: #1F1F1F;
+  color: #EEEEEE;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, Avenir, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #E6DB74;
+}
+
+strong {
+  font-weight: normal;
+  color: #66D9EF;
+}
+
+a {
+  color: #E6DB74;
+  text-decoration: none;
+}
